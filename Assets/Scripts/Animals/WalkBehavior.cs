@@ -6,7 +6,6 @@ public class WalkBehavior : StateMachineBehaviour
 {
     private float timer;
     private List<Transform> wayPoints = new List<Transform>();
-
     NavMeshAgent agent;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
